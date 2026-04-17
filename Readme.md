@@ -249,3 +249,7 @@ kubectl delete deployments shippingservice
 Your cart page should work correctly as it resolve to GCP based deployments.
 
 ## Alternation from Techworld with Nana's script
+1. Shift from LKE to GKE, `service-resolver.yaml` edited to use `peer: gke` instead `peer: lke`
+2. AWS Infrastructure Upgrades, change EKS cluster's Kubernetes version from `1.27` to `1.30`. Upgrade EC2 instance type to `t3.medium` as `t2.small` does not applicable in Thailand's region.
+3. Add `gp3-default.yaml` as `gp2` fails to create for Consul
+4. Terraform Provider Version Upgrade, upgrade AWS provider version from `~>5.3` to `~>5.83`
