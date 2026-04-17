@@ -393,7 +393,7 @@ spec:
           - name: SHIPPING_SERVICE_ADDR
             value: "localhost:50052"
           - name: CHECKOUT_SERVICE_ADDR
-            value: "locahost:5050"
+            value: "localhost:5050"
           - name: AD_SERVICE_ADDR
             value: "localhost:9555"
 ---
