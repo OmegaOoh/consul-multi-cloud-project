@@ -1,6 +1,6 @@
 ## Reference
 1. Demo project accompanying a [Consul crash course video](https://www.youtube.com/watch?v=s3I1kKKfjtQ) on YouTube
-2. GCP Demo project (boutique) [GCP Demo](https://github.com/GoogleCloudPlatform/microservices-demo)
+2. This repository use publicly avaliable GCP Docker images within the Kubenetes deployment manifests, source of the project can be found at [GCP Demo project (Boutique)](https://github.com/GoogleCloudPlatform/microservices-demo)
 
 ## How to run
 
