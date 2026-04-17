@@ -1,6 +1,6 @@
 ## Reference
 1. Demo project accompanying a [Consul crash course video](https://www.youtube.com/watch?v=s3I1kKKfjtQ) on YouTube
-2. This repository use publicly avaliable GCP Docker images within the Kubenetes deployment manifests, source of the project can be found at [GCP Demo project (Boutique)](https://github.com/GoogleCloudPlatform/microservices-demo)
+2. This repository use publicly avaliable GCP Docker images within the Kubernetes deployment manifests, source of the project can be found at [GCP Demo project (Boutique)](https://github.com/GoogleCloudPlatform/microservices-demo)
 
 ## How to run
 
@@ -154,11 +154,11 @@ kubectl apply -f config-consul.yaml
 ```sh
 gcloud auth login
 ```
-10. Click on `Connect` on Cloud Console, and copy the Command-line access, this command will give `kubectl` access to your kubernetes cluster. 
+10. Click on `Connect` on Cloud Console, and copy the Command-line access, this command will give `kubectl` access to your Kubernetes cluster. 
 
 ![Connect to cluster](readme-assets/gcp/k8s.connect.png)
 
-Troubleshooting: You might need to install gke-gcloud-auth plugin to connect, guide can be found [here](https://docs.cloud.google.com/kubernetes-engine/docs/how-to/cluster-access-for-kubectl#install_plugin)
+Troubleshooting: You might need to install `gke-gcloud-auth` plugin to connect, guide can be found [here](https://docs.cloud.google.com/kubernetes-engine/docs/how-to/cluster-access-for-kubectl#install_plugin)
 
 11. Ensure kubectl connection using `kubectl get nodes`
 Example:
